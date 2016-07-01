@@ -2,6 +2,15 @@
 All notable changes to this project will be documented in this file. This change log follows the conventions of [keepachangelog.com](http://keepachangelog.com/).
 
 ## [Unreleased]
+### Added
+- Rounding functions to the math package:
+  - `Round`: Function for rounding a floating-point number according to the
+             number of decimal places and rounding mode provided.
+  - `Up`: Implements rounding similar to Java's UP rounding mode.
+  - `Down`: Implements rounding similar to Java's DOWN rounding mode.
+  - `HalfUp`: Implements rounding similar to Java's HALF_UP rounding mode.
+- Test cases for the math package.
+
 ### Fixed
 - Code commentaries in the equity, math, and analytical packages to provide
   more clarity about the source code.
