@@ -3,6 +3,7 @@ All notable changes to this project will be documented in this file. This change
 
 ## [Unreleased]
 ### Added
+- Test cases for the analytical package.
 - Rounding functions to the math package:
   - `Round`: Function for rounding a floating-point number according to the
              number of decimal places and rounding mode provided.
